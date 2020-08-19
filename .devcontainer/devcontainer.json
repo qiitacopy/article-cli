@@ -1,0 +1,19 @@
+{
+    "name": "qiitacopy Remote-Container",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service" : "golang",
+    "workspaceFolder": "/workspace",
+    "settings": {
+        "terminal.integrated.shell.linux": "/usr/bin/fish"
+    },
+    "extensions": [
+        "alefragnani.bookmarks",
+        "mhutchie.git-graph",
+        "coenraads.bracket-pair-colorizer-2",
+        "oderwat.indent-rainbow",
+        "shardulm94.trailing-spaces",
+        "golang.go",
+        "zxh404.vscode-proto3"
+    ],
+    "shutdownAction": "stopCompose"
+}
