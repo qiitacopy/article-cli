@@ -36,5 +36,5 @@ func testGetByID (){
 		log.Fatalf("could not greet: %v", err)
 	}
 
-	log.Printf("Greeting: %s", r.Text)
+	log.Printf("ID: %v\n Title: %s\n Text: %s\n Username: %s\n CreatedAt: %s\n UpdatedAt: %s\n", r.Id, r.Title, r.Text, r.Username, r.CreatedAt, r.UpdatedAt)
 }
